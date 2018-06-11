@@ -12,7 +12,7 @@ class Dog
     @this_dogs_breed
   end 
   def bark
-    puts "Woof!"
+    bark = "Woof!"
   end
 end
 buddy = Dog.new 
@@ -21,3 +21,4 @@ puts "This dog's name is #{buddy.name}"
 schnauzer = Dog.new 
 schnauzer.breed = "Schnauzer"
 puts "This dog's breed is #{schnauzer.breed}"
+puts "#{bark}"
