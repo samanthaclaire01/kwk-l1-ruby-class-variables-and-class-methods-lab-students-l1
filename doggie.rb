@@ -17,7 +17,8 @@ class Dog
 end
 buddy = Dog.new 
 buddy.name = "Buddy"
-puts "This dogs name is #{buddy.name}"
+puts "This dog's name is #{buddy.name}"
 schnauzer = Dog.new 
 schnauzer.breed = "Schnauzer"
-puts "This dog's breed is"
+puts "This dog's breed is #{schnauzer.breed}"
+puts bark
