@@ -21,4 +21,3 @@ puts "This dog's name is #{buddy.name}"
 schnauzer = Dog.new 
 schnauzer.breed = "Schnauzer"
 puts "This dog's breed is #{schnauzer.breed}"
-puts bark
